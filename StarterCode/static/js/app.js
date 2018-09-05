@@ -9,6 +9,7 @@ button.on("click", handleClick);
 function handleClick() {
     d3.event.preventDefault();
     var inputValue = inputField.property("value");
+
     var filteredData = tableData.filter(ufrow => ufrow.datetime === inputValue);
     displayTable(filteredData);
 }

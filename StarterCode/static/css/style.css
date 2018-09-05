@@ -242,3 +242,22 @@ tbody tr:nth-child(n) td {
     opacity: 1;
   }
 }
+
+#filter-btn,
+.panel-heading,
+.date-heading {
+  width: 100%;
+  text-align: center;
+}
+
+#filter-btn {
+  background-color: #485564;
+}
+
+#filter-btn:hover{
+  background-color: royalblue;
+}
+
+.panel-heading {
+  background-color:rgb(60, 89, 104) !important;
+}
