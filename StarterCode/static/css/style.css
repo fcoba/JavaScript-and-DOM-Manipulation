@@ -75,13 +75,32 @@ select {
 
 #table-area th {
   text-align: center;
+  background-color:rgb(60, 89, 104);
+  color: white;
+  border-bottom:1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #a4b6bd;
+  color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #8498a9;
+  color: white;
+}
+
+
+tbody tr:nth-child(n) td {
+  border: 1px solid black;
+  border-top: 1px solid black;
+  vertical-align: middle;
 }
 
 #table-area th:first-child,
 #table-area th:nth-child(2),
 #table-area th:nth-child(6) {
-  min-width: 70px;
-}
+  min-width: 120px;}
 
 .loader {
   margin-top: 50px;
@@ -153,7 +172,7 @@ select {
   #table-area tr td:first-child {
     font-size: 1.8em;
     font-weight: bold;
-    background: #1b3146;
+    background: #1b3146; 
   }
 
   #table-area tr td:last-child {
